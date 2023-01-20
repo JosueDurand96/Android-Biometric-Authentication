@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.durand.androidbiometricauthentication"
-        minSdk 21
-        targetSdk 32
+        minSdk 29
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -40,4 +40,6 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    //finger print
+    implementation 'androidx.biometric:biometric:1.1.0'
 }
